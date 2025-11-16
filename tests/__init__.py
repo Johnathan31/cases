@@ -1,4 +1,4 @@
-from Case import cased
+from cased import cased
 
 def test_classCased():
     assert cased("hello world").mocking() == 'HELLO world'
